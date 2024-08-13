@@ -10,16 +10,16 @@ resolver = "2"
 version = "0.2.0"
 edition = "2021"
 description = "LoRA implemented for Candle."
-homepage = "https://github.com/EricLBuehler/candle-lora"
-repository = "https://github.com/EricLBuehler/candle-lora"
+homepage = "https://github.com/def-roth/candle-lora"
+repository = "https://github.com/def-roth/candle-lora"
 keywords = ["machine-learning"] #TODOs: Add candle keyword
 categories = ["science"]
 license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]
-candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
-candle-examples = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
-candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.5.0" }
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
+candle-examples = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.6.0" }
 either = "1.9.0"
 serde_json = "1.0.107"
 thiserror = "1.0.48"
